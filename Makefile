@@ -1,5 +1,5 @@
-REPOSITORY              ?= github.com/theoden9014/go-makefile
-NAME                    ?= go-makefile
+REPOSITORY              ?= github.com/theoden9014/go-startkit
+NAME                    ?= go-startkit
 
 # Settings for golang
 GO                      ?= go
