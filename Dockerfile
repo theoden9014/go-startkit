@@ -21,7 +21,7 @@ CMD ["/bin/true"]
 FROM alpine
 ARG name=
 ARG repository=
-ENV PORT 8080
+ENV ADDR 8080
 RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=builder /go/src/${repository}/${name} ./app
