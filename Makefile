@@ -1,14 +1,6 @@
 REPOSITORY              ?= github.com/theoden9014/go-makefile
 NAME                    ?= go-makefile
 
-UNAME_S := $(shell uname -s)
-ifeq ($(UNAME_S),Linux)
-	GOOS ?= linux
-endif
-ifeq ($(UNAME_S),Darwin)
-	GOOS ?= darwin
-endif
-
 # Settings for golang
 GO                      ?= go
 GOFMT                   ?= go fmt
