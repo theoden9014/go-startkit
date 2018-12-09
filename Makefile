@@ -1,5 +1,5 @@
-REPOSITORY              ?= github.com/theoden9014/go-httpserver
-NAME                    ?= go-httpserver
+REPOSITORY              ?= github.com/theoden9014/go-makefile
+NAME                    ?= go-makefile
 
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
